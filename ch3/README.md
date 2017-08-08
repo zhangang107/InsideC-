@@ -43,5 +43,9 @@ private:
 };
 ```
 问：Point3d::X()传回哪一个X? 是class内部那个x，还是外部(extern)那个x?  
-
+***
 ## 3.2 Data Member 的布局 (Data Member Layout)
+
+C++ Standard 要求，在同一个access section(也就是private 、public、protected等区段)中，member 的排列只需符合“较晚出现的member在class object中有较高的地址”这一条即可。各个member并不定得连续排列，可能会被vptr等插入。  
+***
+## 3.3 Data Member 的存取  
