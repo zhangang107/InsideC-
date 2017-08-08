@@ -43,3 +43,5 @@ private:
 };
 ```
 问：Point3d::X()传回哪一个X? 是class内部那个x，还是外部(extern)那个x?  
+
+## 3.2 Data Member 的布局 (Data Member Layout)
