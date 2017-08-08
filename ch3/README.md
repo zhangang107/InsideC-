@@ -23,7 +23,7 @@ Y和Z的大小受到三个因素影响：
 
 ****Empty virtual base class****  
 在这个策略下，一个empty virtual base class 被视为derived class object 最开头的一部分，这就节省了上述第二点中的1 byte。
-
+***
 ## 3.1 Data Member的绑定(The Binding of a Data Member)  
 0x00000001
 ```c++
